@@ -137,6 +137,8 @@ class Activity:
   def remove_next(self, next_activity):
     if self.next_activity.count(next_activity) > 0:
       next_activity.prior_activity.remove(self)
+      if next_activity.prior_activity != []:
+        (next_activity.prior_activity)[0].recalculate_next()
       self.next_activity.remove(next_activity)
       self.recalculate_next()
     else:
