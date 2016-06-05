@@ -151,6 +151,10 @@ class Activity:
   # метод задания даты, раньше которой задача не может стартовать
   def set_not_early_date(self, not_early_date):
     self.not_early_date = not_early_date
+    if not_early_date > self.start_date:
+      self.start_date = not_early_date
+      self.finish_date = self.start_date + self.duration
+      self.recalculate_next()
     if self.not_early_date == None and self.prior_activity != []:
       max_finish_date = 0
       for activity in self.prior_activity:
