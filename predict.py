@@ -91,8 +91,8 @@ class Activity:
         for prior_activity in activity.prior_activity:
           if prior_activity.finish_date > max_finish_date:
             max_finish_date = prior_activity.finish_date
-        # if max_finish_date >= activity.start_date:
-        activity.set_start_date(max_finish_date)
+        if (activity.not_early_date == None) or (activity.not_early_date != None and max_finish_date > activity.not_early_date):
+          activity.set_start_date(max_finish_date)
 
   # метод получения идентификаторов задач-последоваталей
   def get_next(self):
@@ -151,7 +151,7 @@ class Activity:
   # метод задания даты, раньше которой задача не может стартовать
   def set_not_early_date(self, not_early_date):
     self.not_early_date = not_early_date
-    if not_early_date > self.start_date:
+    if not_early_date != None and not_early_date > self.start_date:
       self.start_date = not_early_date
       self.finish_date = self.start_date + self.duration
       self.recalculate_next()
