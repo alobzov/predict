@@ -5,3 +5,5 @@
 Описание проекта в wiki https://github.com/AleksLobzov/predict/wiki
 
 Пример реализации модели с использованием класса приведен по адресу http://alobzov.pythonanywhere.com/network/
+
+Статья об использовании модуля predict https://habrahabr.ru/post/310216/
