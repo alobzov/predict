@@ -7,3 +7,5 @@
 Пример реализации модели с использованием класса приведен по адресу http://alobzov.pythonanywhere.com/network/
 
 Статья об использовании модуля predict https://habrahabr.ru/post/310216/
+
+Ссылка на доклад о создании модуля http://www.moscowpython.ru/meetup/39/ispolzovanie-python-dlja-postroenija-setevyh-model/
