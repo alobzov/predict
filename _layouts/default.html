@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://alobzov.github.io/blog/assets/css/index.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="/" title="Главная страница">Главная</a>
+            </li>
+            <!--
+            <li>
+              <a href="/cv/" title="Моё резюме">Резюме</a>
+            </li>
+            -->
+            <li>
+              <a href="/blog/" title="Постов: {{ site.posts.size }} шт.">Блог</a>
+            </li>
+            <li>
+              <a href="/predict/" title="Модуль predict для разработки расписания проекта">Pet-проект №1</a>
+            </li>
+            <!--
+            <li>
+              <a href="/SurveyDemoBot/" title="Бот для проведения опросов через Telegram">Pet-проект №2</a>
+            </li>
+            <li>
+              <a href="/SurveyDemoBot/" title="Материалы курса 'Docs as Code: пишем тексты как код' на Stepik">Pet-проект №3</a>
+            </li>
+            -->
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <div class="footer-meta">
+          &copy; alobzov
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

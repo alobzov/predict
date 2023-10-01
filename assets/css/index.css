@@ -1,0 +1,30 @@
+main a {
+  color: blue;
+  text-decoration: none;
+}
+
+main h1 {
+  font-size: 1.75em;
+}
+
+main h2 {
+  font-size: 1.5em;
+}
+
+main h1,
+main h2 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+main p,
+main ol,
+main div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+main ol {
+  margin-left: 2em;
+}

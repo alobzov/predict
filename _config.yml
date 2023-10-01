@@ -1,0 +1,15 @@
+title: Модуль predict для разработки расписания проекта
+email: aleks.lobzov@gmail.com
+description: Это описание моего Pet-проекта по сетевым моделям
+baseurl: "/predict"
+url: "https://alobzov.github.io"
+github_username: alobzov
+markdown: kramdown
+author:
+  name: "Алексей Лобзов"
+  email: aleks.lobzov@gmail.com
+encoding: utf-8
+timezone: Europe/Moscow
+permalink: :year-:month-:day-:title.html
+exclude:
+  - README.md
