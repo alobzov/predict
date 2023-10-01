@@ -1,11 +1,6 @@
-# Network-Diagram
+[![markdown-link-check](https://github.com/alobzov/predict/actions/workflows/mlc.yml/badge.svg)](https://github.com/alobzov/predict/actions/workflows/mlc.yml)
+[![Hits-of-Code](https://hitsofcode.com/github/alobzov/predict?branch=main&label=Hits-of-Code)](https://hitsofcode.com/github/alobzov/predict/view?branch=main&label=Hits-of-Code)
+[![My Telegram](https://img.shields.io/badge/Telegram-contact-active?logo=telegram)](https://t.me/alobzov)
+[![My Habr](https://img.shields.io/badge/Habr-read-active?logo=habr)](https://habr.com/users/alobzov)
 
-Проект содержит класс Activity для построения сетевой модели проекта.
-
-Описание проекта в wiki https://github.com/AleksLobzov/predict/wiki
-
-Пример реализации модели с использованием класса приведен по адресу http://alobzov.pythonanywhere.com/network/
-
-Статья об использовании модуля predict https://habrahabr.ru/post/310216/
-
-Доклад о создании модуля http://www.moscowpython.ru/meetup/39/ispolzovanie-python-dlja-postroenija-setevyh-model/
+Этот репозиторий содержит исходный код модуля predict, предназначенного для построения сетевой модули проекта. Подробнее о модуле в [статье](https://habr.com/ru/articles/310216/) на Хабре и в [докладе](https://github.com/alobzov/predict), представленном на митапе №39 сообщества MoscowPython
