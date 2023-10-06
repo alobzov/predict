@@ -2,9 +2,19 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% if page.author %}
+    <meta name="author" content="{{ page.author }}">
+    {% endif %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
+    {% if page.date %}
+    <meta name="date" content="{{ page.date }}">
+    {% endif %}
     <title>{{ page.title }}</title>
-    <link rel="icon" href="https://alobzov.github.io/blog/assets/logo.ico">
-    <link rel="stylesheet" href="https://alobzov.github.io/blog/assets/css/index.css">
+    <link rel="icon" href="{{ site.url }}/blog/assets/logo.ico">
+    <link rel="stylesheet" href="{{ site.url }}/blog/assets/css/index.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
   </head>
   <body>
