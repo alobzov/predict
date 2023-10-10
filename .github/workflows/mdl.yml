@@ -14,5 +14,5 @@ jobs:
       with:
         config: './.markdownlint.json'
         globs: |
-          './index.md'
-          './README.md'
+          ./index.md
+          ./README.md
