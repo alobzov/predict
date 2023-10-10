@@ -1,3 +1,4 @@
+[![markdownlint](https://github.com/alobzov/predict/actions/workflows/mdl.yml/badge.svg)](https://github.com/alobzov/predict/actions/workflows/mdl.yml)
 [![markdown-link-check](https://github.com/alobzov/predict/actions/workflows/mlc.yml/badge.svg)](https://github.com/alobzov/predict/actions/workflows/mlc.yml)
 [![Hits-of-Code](https://hitsofcode.com/github/alobzov/predict?branch=main&label=Hits-of-Code)](https://hitsofcode.com/github/alobzov/predict/view?branch=main&label=Hits-of-Code)
 [![My Telegram](https://img.shields.io/badge/Telegram-contact-active?logo=telegram)](https://t.me/alobzov)
