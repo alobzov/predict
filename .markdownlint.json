@@ -2,11 +2,15 @@
     "default": true,
     "MD009": false,
     "MD013": false,
+    "MD025": false,
     "MD028": false,
     "MD033": {
         "allowed_elements": [
             "div",
-            "time"
+            "time",
+            "figure",
+            "figcaption",
+            "img"
         ]
       },
     "MD041": false,
